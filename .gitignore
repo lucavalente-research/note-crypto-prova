@@ -1,0 +1,12 @@
+# Nel repository pubblico va SOLO il sito: pagine, stile, immagini pubblicate, feed.
+# Tutto il resto (script, note di lavoro, chiavi) resta in locale.
+*
+!index.html
+!archive.html
+!about.html
+!feed.xml
+!stile.css
+!.gitignore
+!*.html
+!immagini/
+!immagini/**
