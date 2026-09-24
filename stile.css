@@ -83,3 +83,7 @@ main{max-width:1100px; margin:0 auto; padding:28px 24px 64px}
   .testata{padding-bottom:12px}
 }
 .training{font-size:13px; font-style:italic; opacity:.8; border-left:2px solid var(--lime); padding-left:10px; margin:0 0 18px}
+.ritirato{font-size:14px; border-left:2px solid var(--coral); padding-left:10px; margin:0 0 18px; color:var(--coral)}
+.pari-tabella{width:100%; border-collapse:collapse; font-size:14px; margin:10px 0 30px}
+.pari-tabella th,.pari-tabella td{text-align:left; padding:6px 8px; border-bottom:1px solid var(--line)}
+.pari-tabella th{color:var(--muted); font-weight:normal; letter-spacing:.08em; text-transform:uppercase; font-size:12px}
