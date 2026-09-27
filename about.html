@@ -21,7 +21,10 @@ so chains with chains and exchanges with exchanges. When a note says a change is
 group", it means the 30-day change minus the median change of those peers, so a move the whole
 group made does not count as news. When a note says a measure is inside its "normal range", it
 means the measure moved less than it usually does in its own history. Every note names the date
-by which its reading has to be checked again.</p></main>
+by which its reading has to be checked again.</p>
+<p>The check uses a threshold of 5 points: if, over the next 30 days, the measure that carries the reading
+moves more than 5 points away from its group's median, the reading is dropped. Five points is the line past
+which a gap is no longer treated as ordinary noise between peers.</p></main>
 <footer class="piede">
   <span>Luca Valente · Crypto research</span>
   <span>Data: DefiLlama, growthepie, GitHub, CoinGecko · Source: growthepie, https://www.growthepie.com (CC BY 4.0)</span>
